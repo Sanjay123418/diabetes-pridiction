@@ -53,7 +53,7 @@ st.markdown(
 )
 
 # Load the model
-diabetes_model_path = r"D:\workshop 2\daibetes_model.sav"
+diabetes_model_path = "daibetes_model.sav"
 try:
     with open(diabetes_model_path, 'rb') as model_file:
         diabetes_model = pickle.load(model_file)
