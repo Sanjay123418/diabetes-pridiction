@@ -17,7 +17,7 @@ st.markdown(
         .stButton>button {
             display: block;
             margin: 20px auto;
-            background-color: #ff4d6d;
+            background-color: light blue;
             color: white;
             font-size: 110%;
             padding: 12px 24px;
@@ -28,7 +28,7 @@ st.markdown(
             font-weight: bold;
         }
         .stButton>button:hover {
-            background-color: #d6336c;
+            background-color:light blue;
             transform: scale(1.05);
         }
         .result-container {
